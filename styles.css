@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1e1b1;
+    width: 100%
+}
+body {
+    background-color: #f5eed9;
+}
+
+.logo{
+    position: relative;
+    left: -60px;
+    margin-left: 15px;
+}
+
+.logo > img {
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+nav > ul {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -10px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+li:hover {
+    list-style: none;
+    background-color: #ecd69c;
+    margin: 5px;
+    padding: 5px
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+#form-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 300px;
+        margin-top: 50px;
+}
+
+h3 {
+    font-size: 4.5vw;
+    margin: 10px
+}
+
+#email {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 214, 214);
+    padding: 10px;
+}
+
+#submit {
+    height: 50px;
+    width: 130px;
+    margin: 5px 0;
+    border: none;
+    background-color: rgb(231, 198, 119);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 30px;
+}
+
+#submit:hover {
+    background-color: rgb(230, 153, 0)
+}
+    
+iframe {
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 50vw;
+        padding: 0 0 30px 0
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #d1cab6;
+    margin: 20px;
+    padding: 10px;
+    font-size: 4.5vw;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+#Lets {
+    display: flex;
+    flex-direction: row;
+}
+
+.drum {
+    display: flex;
+    flex-dn;
+    align-items: center;
+    text-align: justify;
+    width: calc(100% / 3);
+    margin: 10px 5px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.drumstick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cymbal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+#More {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 40px 40px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: center;  
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #d1cab6;
+    margin: 20px;
+    padding: 10px;
+    font-size: 4vw;
+}
+
+@media (max-width: 600px) {
+      
+    #Lets {
+        display: flex;
+        flex-direction: column;
+    }
+
+.drum {
+    display: flex;
+    flex-dn;
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+    margin: 10px 30px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.drumstick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+    margin: 10px 30px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cymbal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+    margin: 10px 30px;
+    border: 2px solid #d2bf84;
+    background-color: #cfbf8f;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+#video{
+height: 50vw
+}
+}
